@@ -16,7 +16,7 @@ packages = ["package_main"],
 
 entry_points = {
     'console_scripts': [
-        'tm=package_main.cli:tm'
+        'tm=package_main.tm:cli'
         ],
     },
 install_requires=[
