@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-name = "TimeConverter",
+name = "timemachine",
 version = "0.0.1",
 author = "Vipin Kumar",
 author_email = "k.vipz88@gmail.com",
@@ -16,7 +16,7 @@ packages = ["package_main"],
 
 entry_points = {
     'console_scripts': [
-        'tc=package_main.cli:tc'
+        'tm=package_main.cli:tm'
         ],
     },
 install_requires=[
