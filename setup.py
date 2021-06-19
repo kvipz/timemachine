@@ -8,12 +8,13 @@ author_email = "k.vipz88@gmail.com",
 description = "A template for Python package",
 
 package_dir = {"": "src"},
+#-------------------------------
 packages = ["package_main"],
-
+#------------OR-----------------
 # packages = find_packages(
 #    where = "src"
-#)
-
+#),
+#-------------------------------
 entry_points = {
     'console_scripts': [
         'tm=package_main.tm:cli'
